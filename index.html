@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Tables and Forms</title>
+  </head>
+  <body>
+    <table border>
+      <h2>Fruits List</h2>
+      <tr>
+        <th>Fruit Name</th>
+        <th>Fruit Color</th>
+        <th>Fruit Taste</th>
+      </tr>
+      <tr>
+        <td>Orange</td>
+        <td>Orange</td>
+        <td>Sweet</td>
+      </tr>
+      <tr>
+        <td>Mango</td>
+        <td>Yellow</td>
+        <td>Sweet</td>
+      </tr>
+    </table>
+
+    <h2>Favourite Movies</h2>
+    <ul type="circle">
+      <li>KGF</li>
+      <li>ARM</li>
+      <li>Lucifer</li>
+      <li>Ayan</li>
+      <li>Kalki</li>
+    </ul>
+
+    <h2>Top Tourist Spot in India</h2>
+    <ol>
+      <li>Taj Mahal</li>
+      <li>Mysore Palace</li>
+      <li>Goa</li>
+    </ol>
+
+    <form action="#">
+      <label>Enter your Name: </label>
+      <input type="text" placeholder="Name" minlength="3" required />
+      <br />
+      <br />
+      <label>Enter your Email: </label>
+      <input type="email" placeholder="Email" required />
+      <br />
+      <br />
+      <label>Gender: </label>
+      <label>Male </label>
+      <input type="radio" name="Gender" required />
+      <label>Female </label>
+      <input type="radio" name="Gender" />
+      <br />
+      <br />
+      <label>Age Range </label>
+      <select name="" id="age" required>
+        <option value="1">18-25</option>
+        <option value="2">25-34</option>
+        <option value="3">35-44</option>
+      </select>
+      <br />
+      <br />
+      <label>Subscribe Weekly Newsletter </label>
+      <input type="checkbox" name="newsletter" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
